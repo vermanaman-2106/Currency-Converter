@@ -6,7 +6,7 @@ A simple and responsive web app to convert currencies using real-time exchange r
 
 ## 🔗 Live Demo
 
-👉 [Click here to view the live demo](https://namanverma.github.io/currency-converter)
+👉 [Click here to view the live demo]([https://namanverma.github.io/currency-converter](https://github.com/vermanaman-2106/Currency-Converter/blob/main/index.html))
 
 ---
 
