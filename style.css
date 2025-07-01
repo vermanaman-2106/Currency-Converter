@@ -1,0 +1,152 @@
+@media (min-width: 1025px){
+    html, body{
+        margin: 0vw;
+        padding: 0vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #maincontainer{
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        background-color:white;
+        margin: 15vw 20vw auto;
+        border-radius: 1vw;
+        gap: .5vw;
+        width: 23vw;
+        height: 27vw;
+        padding: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #amount{
+        width:12vw;
+        height: 2vw;
+    }
+    #fromcurrency{
+        width: 12vw;
+        height: 2vw;
+    }
+    #tocurrency{
+        width:12vw;
+        height: 2vw;
+    }
+    #result{
+        width: 12vw;
+        height: 2vw;
+        background-color:#007BFF;
+        font-weight: 100;
+        font-size: 1.1vw;
+    }
+    #result:hover{
+         background-color: #0056b3;
+         color: white;
+        cursor: pointer;
+    }
+    #msg{
+        padding-bottom: 1.5vw;
+    }
+}
+
+@media (max-width: 600px){
+     html, body{
+        margin: 0vw;
+        padding: 0vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #F0F0F0;
+    }
+    #maincontainer{
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        background-color:white;
+        border-radius: 1vw;
+        gap: .5vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 35vw auto;
+        width: 80vw;
+        height: 74vw;
+    }
+    #amount{
+        width: 40vw;
+        height: 5.5vw;
+    }
+    #fromcurrency{
+       width: 40vw;
+        height: 5.5vw;
+    }
+    #tocurrency{
+       width: 40vw;
+        height: 5.5vw;
+    }
+    #result{
+        width: 40vw;
+        height: 6vw;
+        background-color:#007BFF;
+        color: black;
+        font-size: 3vw;
+        font-weight: 500;
+    }
+    #result:hover{
+         background-color: #0056b3;
+         color: white;
+        cursor: pointer;
+    }
+    #msg{
+        padding-bottom: 1.5vw;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px){
+    html, body{
+        margin: 0vw;
+        padding: 0vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #F0F0F0;
+    }
+    #maincontainer{
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        background-color:white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 30vw auto;
+        padding: auto;
+        width: 45vw;
+        height: 50vw;
+    }
+    #amount{
+        width: 20vw;
+        height: 4vw;
+    }
+    #fromcurrency{
+        width: 20vw;
+        height: 4vw;
+    }
+    #tocurrency{
+        width: 20vw;
+        height: 4vw;
+    }
+    #result{
+        width: 20vw;
+        height: 4vw;
+        background-color:#007BFF;
+        font-weight: 100;
+        font-size: 1.1vw;
+    }
+    #result:hover{
+         background-color: #0056b3;
+         color: white;
+        cursor: pointer;
+    }
+    #msg{
+        padding-bottom: 1.5vw;
+    }
+}
